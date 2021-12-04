@@ -20,8 +20,10 @@ $nomeCliente = $_GET["nome"];
             <td><?php echo $nomeCliente; ?></td>
             <td>cpf</td>
             <td><?php echo &cpf; ?></td>
+            <td>rg</td>
+            <td><?php echo &indentidade; ?></td>
             <td>fone</td>
-            <td><?php echo &fone; ?></td>
+            <td><?php echo &telefone; ?></td>
             <td>Gmail</td>
             <td><?php echo &Gmail; ?></td>  
         </tr>
