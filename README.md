@@ -18,6 +18,12 @@ $nomeCliente = $_GET["nome"];
         <tr>
             <td>Nome Completo</td>
             <td><?php echo $nomeCliente; ?></td>
+            <td>cpf</td>
+            <td><?php echo &cpf; ?></td>
+            <td>fone</td>
+            <td><?php echo &fone; ?></td>
+            <td>Gmail</td>
+            <td><?php echo &Gmail; ?></td>  
         </tr>
     </table>
 </body>
