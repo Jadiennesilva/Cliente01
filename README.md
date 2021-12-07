@@ -1,8 +1,11 @@
 # Cliente01
+
 <?php
 
-
 $nomeCliente = $_GET["nome"];
+$cpfCliente = $_GET["cpf"];
+$foneCliente = $_GET["fone"];
+$emailCliente = $_GET["email"];
 
 ?>
 <!DOCTYPE html>
@@ -11,22 +14,30 @@ $nomeCliente = $_GET["nome"];
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Salvar Cliente</title>
 </head>
 <body>
+    
     <table border="1">
-        <tr>
+
+        </tr>
             <td>Nome Completo</td>
             <td><?php echo $nomeCliente; ?></td>
-            <td>cpf</td>
-            <td><?php echo &cpf; ?></td>
-            <td>rg</td>
-            <td><?php echo &indentidade; ?></td>
-            <td>fone</td>
-            <td><?php echo &telefone; ?></td>
-            <td>Gmail</td>
-            <td><?php echo &Gmail; ?></td>  
+            </tr>
+            <td>CPF:
+            </td>
+            <td><?php echo $cpfCliente; ?></td>
+            </tr>
+            <td>Telefone:
+            </td>
+            <td><?php echo $foneCliente; ?></td>
+            </tr>
+            <td>Email:
+            </td>
+            <td><?php echo $emailCliente; ?></td>
         </tr>
     </table>
 </body>
 </html>
+
